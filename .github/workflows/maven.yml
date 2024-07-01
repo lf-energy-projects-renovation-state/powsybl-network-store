@@ -21,7 +21,7 @@ jobs:
           java-version: 17
 
       - name: Checkout sources
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: Build with Maven
         run: mvn --batch-mode -Pjacoco install
